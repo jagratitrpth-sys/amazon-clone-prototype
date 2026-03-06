@@ -152,3 +152,127 @@
     font-weight: 700;
     color:#febd68;
 }
+/*hero section*/
+.hero-section{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 95%;
+    height: 40px;
+    margin-bottom: 45px;
+    
+}
+.hero-message a{
+    color: #febd68;
+    font-weight: 700;
+}
+
+.box{
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 15px;
+    box-sizing: border-box;
+}
+.shop-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #e2e7e6;
+    
+}
+.box1-img{
+    background-image: url(box1_image.jpg);
+    height: 320px;
+    width: 310px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    background-size: cover;
+    
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.box-content p{
+    color: #007185;
+}
+.box2-img{
+    background-image: url(box2_image.jpg);
+    height: 320px;
+    width: 310px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    background-size: cover;
+    
+}
+.box3-img{
+    background-image: url(box3_image.jpg);
+    height: 320px;
+    width: 310px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    background-size: cover;
+    
+}
+.box4-img{
+    background-image: url(box4_image.jpg);
+    height: 320px;
+    width: 310px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    background-size: cover;
+    
+}
+.box5-img{
+    background-image: url(box5_image.jpg);
+    height: 320px;
+    width: 310px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    background-size: cover;
+    
+}
+.box6-img{
+    background-image: url(box6_image.jpg);
+    height: 320px;
+    width: 310px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    background-size: cover;
+    
+}
+.box7-img{
+    background-image: url(box7_image.jpg);
+    height: 320px;
+    width: 310px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.box8-img{
+    background-image: url(box8_image.jpg);
+    height: 320px;
+    width: 310px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    background-size: cover;
+    
+}
